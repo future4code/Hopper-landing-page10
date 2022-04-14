@@ -3,3 +3,59 @@
   margin: 0;
   padding: 0;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  padding: 20px 80px 20px 80px;
+  font-family: 'Courier New';
+  background-color: #f7f7f7;
+  color: #a58a7a;
+}
+footer section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+footer nav {
+  flex: 1;
+}
+footer li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: #a58a7a;
+}
+footer img {
+  margin: 10px 10px 10px 0;
+}
+footer .line {
+  background-color: #a58a7a;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+footer .icons li{
+  display: inline-block;
+  margin-right: 10px;
+}
+footer .icons a > img {
+  width: 20px;
+}
+footer .icons > img {
+  width: 200px;
+  margin-top: 0;
+}
+footer .services li {
+  margin-top: 10px;
+}
+footer .contacts img {
+  width: 15px;
+}
