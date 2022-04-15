@@ -4,6 +4,28 @@
   padding: 0;
 }
 
+/* Main */
+
+main {
+  flex-direction: column;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .mercado:hover{
+  transform: scale(0.95,0.95);
+  transition: 2s;
+}
+
+main section .restaurantes:hover{
+  transform: scale(0.95,0.95);
+  transition: 2s;
+}  
+
+/* Main */
+
 /* Footer */
 footer {
   display: flex;
