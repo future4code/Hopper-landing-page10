@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Courier New';
 }
 
 /* Main */
@@ -87,7 +88,6 @@ footer {
   justify-content: center;
   align-items: space-between;
   padding: 20px 80px 20px 80px;
-  font-family: 'Courier New';
   background-color: #f7f7f7;
   color: #a58a7a;
 }
