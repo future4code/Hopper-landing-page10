@@ -1,5 +1,28 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+
+header {
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0%;
+}
+
+.headerFlex{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+input {
+  border: none;
+  padding-left: 8px;
+  border-left: 8px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(221, 212, 212)
 }
