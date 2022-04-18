@@ -31,8 +31,7 @@ main section .restaurantes:hover{
   margin-bottom: 50px;
 }
 .galery-item {
-  width: 30%;
-  min-width: 250px;
+  flex: 1 1 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,22 +82,21 @@ main section .restaurantes:hover{
 
 /* Footer */
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: space-between;
   padding: 20px 80px 20px 80px;
   background-color: #f7f7f7;
   color: #a58a7a;
 }
 footer section {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
+  border-top: 2px solid #a58a7a;
 }
 footer nav {
-  flex: 1;
+  flex: 1 1 300px;
+  margin-top: 20px;
 }
 footer li {
   list-style: none;
@@ -111,12 +109,6 @@ footer a {
 }
 footer img {
   margin: 10px 10px 10px 0;
-}
-footer .line {
-  background-color: #a58a7a;
-  height: 2px;
-  width: 100%;
-  margin-bottom: 20px;
 }
 footer .icons li{
   display: inline-block;
